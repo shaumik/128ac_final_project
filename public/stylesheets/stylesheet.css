@@ -149,7 +149,7 @@ a:hover{
 }	
 /*hack bootstrap*/
 .infoHeader .navbar-static-top{
-	border-radius:10px;
+	border-radius:24px;
 }
 
 .quote h1{
