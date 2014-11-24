@@ -83,3 +83,107 @@ a:hover{
 	width: 480px;
 	height: 360px;
 }
+
+
+
+
+
+.infoHeader {
+    /*background: #333;
+    width: 100%;
+    height:200px;
+    color: white;
+    display: table;
+    text-align: center;
+    position:relative;*/
+    position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 1;
+	right: 0px;
+	margin-top: 15px;
+}
+
+
+.infoHeader .masthead-brand {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.infoHeader .masthead-nav > li {
+    display: inline-block;
+}
+.infoHeader .masthead-nav > li + li {
+    margin-left: 20px;
+}
+.infoHeader .masthead-nav > li > a {
+    padding-right: 0;
+    padding-left: 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff; /* IE8 proofing */
+    color: rgba(255,255,255,.75);
+    border-bottom: 2px solid transparent;
+}
+.infoHeader .masthead-nav > li > a:hover,
+.infoHeader .masthead-nav > li > a:focus {
+    background-color: transparent;
+    border-bottom-color: #a9a9a9;
+    border-bottom-color: rgba(255,255,255,.25);
+}
+.infoHeader .masthead-nav > .active > a,
+.infoHeader .masthead-nav > .active > a:hover,
+.infoHeader .masthead-nav > .active > a:focus {
+    color: #fff;
+    border-bottom-color: #fff;
+}
+
+@media (min-width: 768px) {
+    .infoHeader .masthead-brand {
+		float: left;
+    }
+    .infoHeader .masthead-nav {
+		float: right;
+		padding-right: 20px;
+    }
+}	
+/*hack bootstrap*/
+.infoHeader .navbar-static-top{
+	border-radius:10px;
+}
+
+.quote h1{
+	color: white;
+	font-size: 90px;
+}
+
+.quote p{
+	font-size: 10px;
+	color: black;
+	line-height: 15px;
+	margin-bottom: 2px;
+}
+
+.quote .splash{
+	text-transform: none;
+	text-align: left;
+	position:relative;
+	width: 80%;
+	top: 50px;
+}
+
+.quote .splash-container{
+	position: relative!important;
+	height: 300px;
+	margin-top: 0px;
+	overflow: visible;
+}
+
+.infopage .content-wrapper{
+	position:relative;
+	top: 0;
+}
+
+.infopage iframe{
+	margin-left: 18%;
+}
