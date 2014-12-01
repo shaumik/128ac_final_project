@@ -10,5 +10,10 @@ router.get('/comic', function(req, res) {
   res.render('comic.html', { title: 'comic' });
 });
 
+router.get('/comedy', function(req, res) {
+	res.render('comedy.html', {title: 'comedy'});
+	
+});
+
 
 module.exports = router;

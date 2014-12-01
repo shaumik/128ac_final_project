@@ -158,7 +158,7 @@ a:hover{
 }
 
 .quote p{
-	font-size: 10px;
+	font-size: 80%;
 	color: black;
 	line-height: 15px;
 	margin-bottom: 2px;
@@ -186,4 +186,12 @@ a:hover{
 
 .infopage iframe{
 	margin-left: 18%;
+	margin-top: 10px;
+}
+
+.video-caption{
+	font-size: 75%;
+	font-family: "Times New Roman", Times, serif;
+	font-style: italic;
+	text-align: center;
 }
