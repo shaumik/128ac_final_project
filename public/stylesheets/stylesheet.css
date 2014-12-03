@@ -3,6 +3,9 @@
 	color: white;
 	padding-right: 30px;
     position:relative;
+    padding-top: 425px;
+    padding-left: 25%;
+    text-transformation: uppercase;
 }
 
 .mainHeader h1 {
@@ -153,7 +156,7 @@ a:hover{
 }
 
 .quote h1{
-	color: white;
+	color: black;
 	font-size: 90px;
 }
 
@@ -195,3 +198,18 @@ a:hover{
 	font-style: italic;
 	text-align: center;
 }
+
+
+.image-source{
+	font-size: 75%;
+	font-family: "Times New Roman", Times, serif;
+	font-style: italic;
+	text-align: center;
+}
+	
+body{
+	color: black;
+}
+
+
+/*007e24 green*/

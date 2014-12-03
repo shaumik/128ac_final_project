@@ -6,7 +6,7 @@
 
 body {
     line-height: 1.7em;
-    color: #7f8c8d;
+    color: black;
     font-size: 13px;
 }
 
@@ -17,7 +17,7 @@ h4,
 h5,
 h6,
 label {
-    color: #34495e;
+    color: #007e24;
 }
 
 .pure-img-responsive {
@@ -43,7 +43,7 @@ label {
 
 
 .splash-container {
-    background: #1f8dd6;
+    background: #007e24;
     z-index: 1;
     overflow: hidden;
     width: 100%;
